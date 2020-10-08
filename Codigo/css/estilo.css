@@ -1,0 +1,593 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #2E2759;
+}
+
+.menu {
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-self: center;
+    list-style: none;
+    height: 112px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.menu a {
+    color: #ffff;
+}
+
+.menu a:hover {
+    color: #fff;
+}
+
+.btn {
+    width: 137px;
+    height: 44px;
+}
+
+.formcont>h2, .cont>h2, .adicionar>h2 {
+    text-align: center;
+    color: #2e2759;
+    font-family: 'Staatliches', cursive;
+}
+
+.adicionar>h2 {
+    margin: 60px auto;
+}
+
+.cont {
+    margin: 128px auto;
+}
+
+.formcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcont>form {
+    width: 48%;
+    margin: 16px auto;
+}
+
+.textsoc {
+    text-align: center;
+    font-family: 'Roboto', sans-serif
+}
+
+.textsoc>a>img {
+    width: 64px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px auto;
+}
+
+.btncont {
+    background: #2e2759;
+    float: right;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    margin: 19px 26% auto;
+}
+
+.contato {
+    margin: 88px auto;
+}
+
+.logo a {
+    color: #D92B4B;
+}
+
+.banner {
+    background-image: url('../img/header-bg.jpg');
+    background-size: auto;
+    width: 100%;
+    padding: 113px;
+}
+
+.bannersav {
+    background-image: url('../img/salve-ep-bg.jpg');
+    background-size: auto;
+    font-family: 'Staatliches', cursive;
+    width: 100%;
+    height: 161px;
+}
+
+.bannerpag {
+    background-image: url('../img/contato-bg.jpg');
+    background-size: auto;
+    font-family: 'Staatliches', cursive;
+    width: 100%;
+    height: 161px;
+}
+
+.bannerpag>h1 {
+    padding: 51px;
+}
+
+.banner3 {
+    background-image: url('../img/salve-ep-bg.jpg');
+    background-size: auto;
+    font-family: 'Staatliches', cursive;
+    width: 100%;
+    height: 161px;
+}
+
+.banner3>h1 {
+    padding: 51px;
+}
+
+.cardimg {
+    width: 47px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.card {
+    box-shadow: 1px 0px 9px #181818;
+}
+
+.title {
+    font-family: 'Staatliches', cursive;
+    color: #2e2759;
+}
+
+.rectitle {
+    margin-top: 107px;
+    color: #2e2759;
+}
+
+.recurso {
+    display: flex;
+    justify-content: space-around;
+    margin: 128px auto;
+}
+
+.lupa {
+    width: 20px;
+    margin: 0px 0 0px -144px;
+}
+
+#buscar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px 2px 0 30px;
+    border: 1px solid;
+}
+
+.busca {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 55px auto;
+    flex-wrap: wrap;
+}
+
+.procurar {
+    background: #2e2759;
+    font-family: 'Staatliches', cursive;
+    height: 46px;
+}
+
+.edits {
+    display: flex;
+    justify-content: center;
+}
+
+.btnedit {
+    margin: 0 12px 0 0;
+    background: #2e2759;
+    color: #fff;
+}
+
+.marcados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.saveep {
+    display: flex;
+    justify-content: space-around;
+    margin: 44px auto;
+}
+
+.card-img-top {
+    width: 271px;
+    height: 180px;
+}
+
+.titulo {
+    color: #2e2759;
+    font-family: 'Staatliches', cursive;
+}
+
+.edits>a {
+    border-radius: 22px 22px 22px 22px;
+    font-family: 'Staatliches', cursive;
+}
+
+footer {
+    background: #2e2759;
+    color: #fff;
+    height: 166px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+}
+
+/*adcep*/
+
+.adccont {
+    margin-bottom: 128px;
+}
+
+.adicionar {
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-columns: auto 1fr;
+}
+
+.teste {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.tmp {
+    display: flex;
+    justify-content: space-between
+}
+
+.tmp>input {
+    width: 49%;
+}
+
+.temp, .ep {
+    width: 24%;
+    height: 43px;
+}
+
+.adcimg {
+    grid-row: 2/4;
+    grid-column: 1/2;
+    margin-right: 150px;
+    background: #2e2759;
+    color: #fff;
+    height: 203px;
+}
+
+.enter {
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
+.adicionar>h2 {
+    margin: 60px auto;
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.inputtitle {
+    width: 100%;
+    height: 43px;
+}
+
+.inputs {
+    margin: 26px auto;
+}
+
+.teste>.btn {
+    background: #2e2759;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+}
+
+/*teste*/
+
+.file_customizada::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.file_customizada:hover::before {
+    border-color: black;
+}
+
+.file_customizada:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+label.labelInput input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+.labelInput {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 203px;
+    background: #2e2759;
+    color: #fff;
+    transition: all 300ms;
+    cursor: pointer;
+    font-family: 'Staatliches', cursive;
+}
+
+.labelInput:hover {
+    background: #504A72;
+}
+
+.labelInput:active {
+    background: #CCF;
+}
+
+.labelInput :invalid+span {
+    color: #A44;
+}
+
+.labelInput :valid+span {
+    color: #4A4;
+}
+
+/*conta*/
+
+.bannerconta {
+    background-image: url('../img/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Staatliches';
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo>h1 {
+    font-family: 'Staatliches';
+    margin: 64px auto 32px auto;
+    font-weight: bold;
+    color: #2e2759;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.btncriar {
+    float: right;
+    margin: 12px auto;
+}
+
+.formulario>form {
+    width: 40%;
+}
+
+form {
+    text-align: center;
+}
+
+.form-group>input {
+    height: 60px;
+    margin: 50px auto;
+}
+
+/*login*/
+
+.bannerlogin>img {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo>h1 {
+    font-family: 'Staatliches';
+    margin: 64px auto 32px auto;
+    font-weight: bold;
+    color: #2e2759;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario>form {
+    width: 40%;
+}
+
+form {
+    text-align: center;
+}
+
+.form-group>input {
+    height: 60px;
+    margin: 50px auto;
+}
+
+/*sobre*/
+
+.bannersobre {
+    background-image: url('../img/sobre-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+h1, h2 {
+    font-family: 'Staatliches';
+}
+
+.text_1, .text_2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr;
+    margin-top: 100px;
+}
+
+.text_2 {
+    margin: 128px auto;
+}
+
+h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+div>h2 {
+    color: #2e2759;
+}
+
+@media (max-width: 1066px) {
+    .links, .btns {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu a:hover {
+        background: #2e2759;
+    }
+    .burgue {
+        position: absolute;
+        will-change: transform;
+        top: 0px;
+        left: 0px;
+        transform: translate3d(0px, 24px, 0px);
+    }
+    .dropdown {
+        display: block;
+    }
+    .dropdown>a>img {
+        width: 30px;
+    }
+    .dropdown-menu>a {
+        color: #2e2759;
+    }
+    .btn0 {
+        box-shadow: none;
+    }
+    .recurso {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card2 {
+        margin: 128px auto;
+    }
+    .formcont>form {
+        width: 100%;
+    }
+}
+
+@media(max-width: 999px) {
+    .menu .none {
+        display: none;
+    }
+    .saveep {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        margin: 28px auto
+    }
+}
+
+@media(max-width:360px) {
+    /*Contato*/
+    .textsoc>a>img {
+        width: 50px;
+    }
+    .textsoc {
+        font-size: 14px;
+    }
+    .formcont>form {
+        width: 100%;
+    }
+    .banner {
+        font-size: 20px;
+        padding: 12px;
+    }
+    .busca {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 50% 50%;
+    }
+    .formulario>form{
+        width: 100%;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+@media (max-width: 739px) {
+    nav {
+        display: none;
+    }
+}

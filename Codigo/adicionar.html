@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <title>Adicionar epsódios</title>
+</head>
+<body><header>
+    <nav class="menu container">
+        <a class="logo" href="#"><img src="./img/icones/logo.svg" alt="logo"></a>
+        <ul class="links">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./salvos.html">Salvos</a>
+            </li>
+        </ul>
+        <div class="btns">
+            <a  style="border-radius: 22px;" type="button" class="btn borda btn-danger" href="./login.html">Entrar</a>
+
+            <a style="border-radius: 22px;color: #fff;" type="button"
+            class="btn btn-outline-danger text-light" href="./conta.html">Criar conta</a>
+        </div>
+
+        <div class="dropdown">
+            <a class="btn0" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="../img/icones/menu.svg" alt="menu hamburgue">
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="/index.html">Inicio</a>
+                <a class="dropdown-item" href="/contato.html">Contato</a>
+                <a class="dropdown-item" href="./sobre.html">Sobre</a>
+                <a class="dropdown-item" href="./salvos.html">Salvos</a>
+                <a class="dropdown-item" href="./login.html">Entrar</a>
+                <a class="dropdown_item" href="./conta.html">Criar conta</a>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main class="container adccont">
+        <div class="adicionar">
+            <h2>ADICIONE AQUI SEUS EPISÓDIOS ASSISTIDOS</h2>
+            <div class="adcimg">
+                 <form onsubmit="Checkfiles(this)" id="upload">
+                <label class="labelInput">Adicione a imagem<input type="file" name="arquivos" class="btn file_customizada"  accept="image/png, image/jpeg"  multiple/></label>
+        
+               <!--- <input type="file">--->
+              </form> </div>
+            <div class="enter">
+                <div class="inputs">
+                    <input class="inputtitle" type="text" name="nome" placeholder="Titulo">
+                </div>
+                <div class="tmp">
+                    <input class="temp" type="text" placeholder="Temporada">
+                    <input class="ep" type="number" placeholder="Episódio">
+                </div>
+            </div>
+            <div class="teste">
+                <button style="border-radius: 22px;" type="button" class="btn borda">Salvar</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h5 style="padding: 64px;">© 2020 / AnotherAnimes<br>
+            Nunca mais perca em qual episódio parou.
+        </h5>
+    </footer>
+
+    <script>
+        function Checkfiles(){
+    var fup = document.getElementById('filename');
+    var fileName = fup.value;
+    var ext = fileName.substring(fileName.lastIndexOf('.') + 1);
+
+    if(ext =="jpeg" || ext=="png"){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+    </script>
+
+    
+</body>
+</html>
